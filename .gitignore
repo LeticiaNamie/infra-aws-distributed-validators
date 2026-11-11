@@ -1,0 +1,15 @@
+# Cache local de providers/módulos do Terraform — regenerado por `terraform init`
+.terraform/
+
+# Estado do Terraform (pode conter segredos) e saída de `terraform plan -out=...`
+terraform.tfstate
+terraform.tfstate.*
+tfplan.out
+*.tfplan
+
+# Resultados dos testes baixados localmente
+caliper-results/
+
+# Bytecode Python
+__pycache__/
+*.pyc
